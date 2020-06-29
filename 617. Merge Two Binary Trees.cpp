@@ -17,8 +17,8 @@ public:
         
         if(t1 && t2){
            TreeNode* root = new TreeNode (t1->val + t2->val);
-            t1->left = mergeTrees(t1->left, t2->left);
-            t1->right = mergeTrees(t1->right, t2->right);
+            root->left = mergeTrees(t1->left, t2->left);
+            root->right = mergeTrees(t1->right, t2->right);
             return root;
         }
         else
