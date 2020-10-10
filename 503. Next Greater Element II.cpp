@@ -40,6 +40,4 @@ int num = nums[5%3]=nums[2]
 
 
 so basically, when loop starts for second time, we traverse all over agin from nums[0] to nums[n-1]  for the last elt ie. nums[n-1]
-
-
 */
